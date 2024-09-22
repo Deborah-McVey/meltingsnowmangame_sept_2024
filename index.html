@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Melting Snowman Game</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="meltingsnowman.css">
 </head>
 <body>
     <div class="container">
         <h1>Melting Snowman Game</h1>
-        <div class="Melting Snowman">
+        <div class="melting-snowman">
           <!-- The Melting Snowman graphic will be dynamically generated using JavaScript -->
         </div>
         <div class="word">
           <!-- The current word will be dynamically generated using JavaScript -->
         </div>
+        <div class="guesses"></div>
         <div class="letters">
           <!-- The letters will be dynamically generated using JavaScript -->
         </div>
         <div class="message">
           <!-- The win/lose message will be dynamically generated using JavaScript -->
         </div>
+        <button class="play-button" onclick="startPlaying()">
+          Click here to play
+        </button>
       </div>
-      <script src="main.js"></script>
+      <script src="meltingsnowman.js"></script>
 </body>
 </html>

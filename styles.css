@@ -39,7 +39,8 @@ body {
     flex-wrap: wrap;
   }
   
-  .letters button {
+  .letters button,
+  .play-button {
     margin: 5px;
     padding: 10px;
     font-size: 1.2rem;
@@ -49,7 +50,8 @@ body {
     cursor: pointer;
   }
   
-  .message {
+  .message, 
+  .guesses {
     font-size: 1.5rem;
     margin: 20px;
     display: flex;

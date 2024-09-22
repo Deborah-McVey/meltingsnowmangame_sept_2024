@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.melting-snowman img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.melting-snowman {
+  width: 300px;
+  height: 300px;
+  border: 2px solid blue;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word {
+  font-size: 1.7rem;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.guesses,
+.message {
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.letters {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.letters button,
+.play-button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 1.1rem;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}
